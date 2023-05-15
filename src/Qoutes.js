@@ -16,7 +16,6 @@ const famousQoutations = [
   "It is better to be hated for what you are than to be loved for what you are not. ― Andre Gide",
   "Twenty years from now you will be more disappointed by the things that you didn't do than by the ones you did do. So throw off the bowlines. Sail away from the safe harbor. Catch the trade winds in your sails. Explore. Dream. Discover. ― H. Jackson Brown Jr.7",
 ];
-export function RandomQoutes (props){
-
-
+export function RandomQoutes(props) {
+  return famousQoutations[Math.floor(Math.random() * famousQoutations.length)];
 }
