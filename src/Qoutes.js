@@ -16,6 +16,21 @@ const famousQoutations = [
   "It is better to be hated for what you are than to be loved for what you are not. ― Andre Gide",
   "Twenty years from now you will be more disappointed by the things that you didn't do than by the ones you did do. So throw off the bowlines. Sail away from the safe harbor. Catch the trade winds in your sails. Explore. Dream. Discover. ― H. Jackson Brown Jr.7",
 ];
+const differentColors = [
+  "#FFB84C",
+  "#F266AB",
+  "#A459D1",
+  "#2CD3E1",
+  "#FEA1A1",
+  "#FF55BB",
+  "#C9A7EB",
+  "#F7D060",
+  "#F15A59",
+  "#27E1C1",
+];
+export function ColorPicker() {
+  return differentColors[Math.floor(Math.random() * differentColors.length)];
+}
 export function RandomQoutes(props) {
   return famousQoutations[Math.floor(Math.random() * famousQoutations.length)];
 }

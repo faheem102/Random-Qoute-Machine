@@ -3,9 +3,10 @@ import "./App.css";
 import { MyComponent } from "./Examplefile";
 import "./styles.css";
 
+
 function App() {
   return (
-    <div className="App">
+    <div className="App" >
       <MyComponent date={Date()} />
     </div>
   );
