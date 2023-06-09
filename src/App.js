@@ -1,6 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
-import { QouteGenerator } from "./Examplefile";
+import { QouteGenerator } from "./QouteContainer";
 
 import "./styles.css";
 import famousQoutations from "./Qoutes";

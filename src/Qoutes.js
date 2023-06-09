@@ -66,8 +66,8 @@ const differentColors = [
   "#F15A59",
   "#27E1C1",
 ];
-// export function ColorPicker() {
-//   return differentColors[Math.floor(Math.random() * differentColors.length)];
-// }
+export function ColorPicker() {
+  return differentColors[Math.floor(Math.random() * differentColors.length)];
+}
 
 export default famousQoutations;
