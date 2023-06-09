@@ -69,8 +69,5 @@ const differentColors = [
 // export function ColorPicker() {
 //   return differentColors[Math.floor(Math.random() * differentColors.length)];
 // }
-// export function RandomQoutes(props) {
-//   return famousQoutations[Math.floor(Math.random() * famousQoutations.length)];
-// }
 
 export default famousQoutations;

@@ -1,6 +1,4 @@
 import React from "react";
-// import { RandomQoutes } from "./Qoutes";
-// import { ColorPicker } from "./Qoutes";
 export const QouteGenerator = function (props) {
   return (
     <div>

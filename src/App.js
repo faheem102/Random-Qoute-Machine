@@ -1,21 +1,19 @@
 import logo from "./logo.svg";
 import "./App.css";
 import { QouteGenerator } from "./Examplefile";
-import famousQoutations from "./Qoutes";
-import "./styles.css";
 
+import "./styles.css";
+import famousQoutations from "./Qoutes";
+
+let x = Math.floor(Math.random() * 10 + 1);
 function App() {
   return (
     <div className="App">
-      {famousQoutations.map((qouteitem) => {
-        return (
-          <QouteGenerator
-            key={qouteitem.id}
-            qoute={qouteitem.qoute}
-            author={qouteitem.author}
-          />
-        );
-      })}
+      <QouteGenerator
+        key={famousQoutations[x].id}
+        qoute={famousQoutations[x].qoute}
+        author={famousQoutations[x].author}
+      />
     </div>
   );
 }
