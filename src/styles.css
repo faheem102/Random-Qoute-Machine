@@ -1,37 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap');
 body {
-    font-family: sans-serif;
+    font-family: 'Raleway', sans-serif;
     margin: 0 auto;
     padding: 25px;
-    max-width: 400px;
-    min-width: 400px;
+    max-width: 500px;
+    min-width: 500px;
     background-color: #e6e6ff;
-    text-align: center;
+    
     
 }
-.heading {
-    text-align: center;
-    font-size: 2em;
-    color: #2d3436;
-    margin: 20px 0 30px;
-}
-.qoute-container {
-    border-radius: 25px;
+.qoute-box{
+    border-radius: 3px;
         position: relative;
-        padding: 25px 15px;
-        background-color: #81ecec;
-        margin: 50px 0;
-        height: 200px;
-        box-shadow: 0 2px 5px #ccc;
-        text-align: left;
+        width: 450px;
+        padding: 40px 50px;
+        display: table;
+        background-color: #fff;
+}
+
+ #qoute{
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.75rem;
+    width: 450px;
+    clear: both;
+
+}
+#author{
+    font-size: 1rem;
+    text-align: right;
+}
+.link-button{
+    float: left;
+        padding: 0px;
+        padding-top: 8px;
+        text-align: center;
+        font-size: 1.2em;
+        margin-right: 5px;
+        height: 30px;
+        width: 40px;
+        margin-top: 30px;
+            opacity: 1;
+            cursor: pointer;
+            border: none;
+                border-radius: 3px;
+                
+                outline: none;
 }
 button{
-    appearance: none;
-        outline: 0;
-        background-color: white;
-        border: 0;
-        padding: 10px 15px;
-        color: #50a3a2;
+    float: right;
+    height: 38px;
+        border: none;
         border-radius: 3px;
-        width: 250px;
-        font-size: 18px;
+        color: #fff;
+        outline: none;
+            font-size: 0.85em;
+            padding: 8px 18px 6px 18px;
+            margin-top: 30px;
+            opacity: 1;
+            cursor: pointer;
 }
